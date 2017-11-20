@@ -1,0 +1,16 @@
+<GridLayout rows="auto, *" class="page">
+    <Label row="0" text="Scan a surface.." class="p-20" horizontalAlignment="center"></Label>
+    <AR
+      row="1"
+      debugLevel="FEATURE_POINTS"
+      detectPlanes="true"
+      showStatistics="true"
+      planeOpacity="0.3"
+      [planeMaterial]="planeMaterial"
+      (arLoaded)="arLoaded($event)"
+      (planeDetected)="planeDetected($event)"
+      (sceneTapped)="sceneTapped($event)"
+      (planeTapped)="planeTapped($event)">
+      <!-- you can add layouts here if you like to overlay the AR view -->
+    </AR>
+  </GridLayout>
