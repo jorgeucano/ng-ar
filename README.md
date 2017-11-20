@@ -11,8 +11,8 @@ remember add in xccode your "company" or "personal" account for deploy the app i
 
 
 This proyect use 
-## nativeacript
-## angular
+## NativeScript
+## Angular
 ## nativescript-ar plugin
 
 any question ( create a issues )
